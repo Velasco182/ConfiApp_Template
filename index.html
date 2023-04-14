@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>ConfiApp</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/logo.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
+        <!-- Toolbar Start 
+            <div class="toolbar-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6 col-12">
+                        <div class="toolbar-social">
+                            <ul>
+                                <li><span class="title">Follow Us On : </span></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-facebook-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-instagram"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-google"></i></a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <!-- <div class="col-lg-4 col-md-6 col-12">
+                        <div class="toolbar-login">
+                            <div class="button">
+                                <a href="registration.html">Create an Account</a>
+                                <a href="login.html" class="btn">Log In</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                <div class="nav-inner">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo/logoconfigdeazul.png" alt="Logo">
+                        </a>
+                        <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                            <ul id="nav" class="navbar-nav ms-auto">
+                                <li class="nav-item"><a class="active" href="index.html">Inicio</a></li>
+                                <li class="nav-item"><a href="index.html#rutas">Rutas seguras</a></li>
+                                <!-- <li class="nav-item"><a href="javascript:void(0)">Events</a></li> -->
+                                <li class="nav-item">
+                                    <a class="btn dd-menu" href="index.html#contacto">Contáctanos</a>
+                                    <ul class="sub-menu collapse" id="submenu-1-4">
+                                        <li class="nav-item"><a href="about-us.html">Acerca de</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                        <!-- Button trigger modal -->
+                                        <a type="button" class="btn page-scroll dd-menu" data-bs-toggle="modal" data-bs-target="#inicioModal">Iniciar Sesión</a>
+
+                                    <ul class="sub-menu collapse" id="submenu-1-4">
+                                        <li class="nav-item">
+                                            <!-- Button trigger modal -->
+                                            <a role="button" type="button" class="btn page-scroll dd-menu" data-bs-toggle="modal" href="#registroModal">Regístrate</a>
+                                            
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- <li class="nav-item toolbar-login button">
+                                    <a href="registration.html">Create an Account</a>
+                                    <a href="login.html" class="btn">Log In</a>
+                                </li> -->
+                                <!-- <li class="nav-item"><a href="javascript:void(0)">Contact</a></li> -->
+                            </ul>
+                            <form class="d-flex search-form">
+                                <input class="form-control me-2" type="search" placeholder="Buscar"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit"><i
+                                        class="lni lni-search-alt"></i></button>
+                            </form>
+                        </div> <!-- navbar collapse -->
+                    </nav> <!-- navbar -->
+                </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Modales -->
+        
+        <!-- Modal Registro-->
+        <div class="modal fade" id="registroModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Regístrate</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form form-control">
+                            <label for="" class="form-label">Tipo de cuenta</label>
+                            <select class="form-select" aria-label="Default select example" required>
+                            <option selected value="1">Tutor</option>
+                            <option value="2">Administrador</option>
+                            </select><br>
+                            <label for="" class="form-label">Tipo de identificación</label>
+                            <select class="form-select" aria-label="Default select example" required>
+                            <option selected value="1">Cédula de ciudadanía</option>
+                            <option value="2">Cédula de extranjería</option>
+                            </select><br>
+                            <label for="" class="form-label"> Numero de identificación </label>
+                            <input type="number" class="form-control" name="cuenta" id="cta" placeholder="Número de identificación" required>
+                            <br>
+                            <label for="inputPassword" class="form-label"> Contraseña </label>
+                            <input type="password" class="form-control" id="pw" placeholder="Ingresa tu contraseña" required><br>
+                            <label for="inputPassword" class="form-label"> Repita su Contraseña </label>
+                            <input type="password" class="form-control" id="cpw" placeholder="Ingresa la contraseña nuevamente" required>
+                            <br>
+                            <label for="" class="form-label"> Teléfono </label>
+                            <input type="number" class="form-control" id="tlf" placeholder="Ingresa tu Celular" required><br>
+                            <label for="" class="form-label"> Correo </label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingresa tu Correo personal" required><br>
+                            <!-- <label for="" class="form-label"> Contraseña </label>
+                            <input type="password" class="form-control" id="pw" placeholder="Ingresa tu contraseña" required> -->
+                            
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a>Inicia sesión desde tus cuentas:</a>
+                                </div>
+                                <div class="col-lg-3">
+                                    <a href="https://www.google.com.co"><img width="50%" src="/assets/icons/google.png" alt="Iniciar con Google"></a>
+                                </div>
+                                <div class="col-lg-3">
+                                    <a href="https://outlook.live.com/owa/"><img width="50%" src="/assets/icons/Outlook.png" alt="Iniciar con Outlook"></a>
+                                </div>
+                            </div><br>    
+                        </div>
+                        <div>
+                            <a class="btn" data-bs-toggle="modal" href="#inicioModal" role="button">¿Ya tienes cuenta?</a>
+                            <!--<button class="btn" data-bs-toggle="modal" data-bs-target="#inicioModal">¿Ya tienes cuenta?</button> -->
+                            <button type="button" class="btn btn-form">Guardar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Inicio-->
+        <div class="modal fade" id="inicioModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form form-control">
+                            <label for="" class="form-label">Tipo de cuenta</label>
+                            <select class="form-select" aria-label="Default select example" required>
+                            <option selected value="1">Tutor</option>
+                            <option value="2">Administrador</option>
+                            </select><br>
+                            <label for="" class="form-label"> Cuenta </label>
+                            <input type="number" class="form-control" name="cuenta" id="cta" placeholder="Número de identificación" required><br>
+                            <label for="inputPassword" class="form-label"> Contraseña </label>
+                            <input type="password" class="form-control" id="pw" placeholder="Ingresa tu contraseña" required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a type="button" class="btn" data-bs-dismiss="modal">¿Olvidaste tu contraseña?</a>
+                        <button type="button" class="btn btn-form">Ingresar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Modales -->
+   
+    <!-- Start Hero Area -->
+    <section class="hero-area">
+        <div class="hero-slider">
+            <!-- Single Slider -->
+            <div class="hero-inner overlay" style="background-image: url('assets/images/hero/slider-bg1.jpg');">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-8 offset-lg-2 col-md-12 co-12">
+                            <div class="home-slider">
+                                <div class="hero-text">
+                                    <h5 class="wow fadeInUp" data-wow-delay=".1s">Protege tus hijos ahora</h5>
+                                    <h1 class="wow fadeInUp" data-wow-delay=".3s">Evita que tus hijos vayan a casa <br>sólos al salir de la escuela.</h1>
+                                    <p class="wow fadeInUp" data-wow-delay=".5s">Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting <br> industry. Lorem Ipsum has been the industry's
+                                        standard
+                                        <br>dummy text ever since an to impression.</p>
+                                    <div class="button wow fadeInUp" data-wow-delay=".7s">
+                                        <a href="about-us.html" class="btn">Leer más</a>
+                                        <!-- <a href="courses-grid.html" class="btn alt-btn">Our Courses</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/ End Single Slider -->
+            <!-- Single Slider -->
+            <div class="hero-inner overlay" style="background-image: url('assets/images/hero/slider-bg2.jpg');">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-8 offset-lg-2 col-md-12 co-12">
+                            <div class="home-slider">
+                                <div class="hero-text">
+                                    <h5 class="wow fadeInUp" data-wow-delay=".1s">Protege tus hijos ahora</h5>
+                                    <h1 class="wow fadeInUp" data-wow-delay=".3s">No públicar información personal en<br> redes sociales de tus hijos </h1>
+                                    <p class="wow fadeInUp" data-wow-delay=".5s">Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting <br> industry. Lorem Ipsum has been the industry's
+                                        standard
+                                        <br>dummy text ever since an to impression.</p>
+                                    <div class="button wow fadeInUp" data-wow-delay=".7s">
+                                        <a href="about-us.html" class="btn">Leer más</a>
+                                        <!-- <a href="courses-grid.html" class="btn alt-btn">Our Courses</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/ End Single Slider -->
+            <!-- Single Slider -->
+            <div class="hero-inner overlay" style="background-image: url('assets/images/hero/slider-bg3.jpg');">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-8 offset-lg-2 col-md-12 co-12">
+                            <div class="home-slider">
+                                <div class="hero-text">
+                                    <h5 class="wow fadeInUp" data-wow-delay=".1s">Protege tus hijos ahora</h5>
+                                    <h1 class="wow fadeInUp" data-wow-delay=".3s">No compartir su rutina o ubicación <br> con personas desconocidas.</h1>
+                                    <p class="wow fadeInUp" data-wow-delay=".5s">Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting <br> industry. Lorem Ipsum has been the industry's
+                                        standard
+                                        <br>dummy text ever since an to impression.</p>
+                                    <div class="button wow fadeInUp" data-wow-delay=".7s">
+                                        <a href="about-us.html" class="btn">Leer más</a>
+                                        <!-- <a href="courses-grid.html" class="btn alt-btn">Our Courses</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/ End Single Slider -->
+        </div>
+    </section>
+    <!--/ End Hero Area -->
+
+    <!-- Start About Us Area -->
+    <section id="rutas" class="about-us section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="about-left">
+                        <div class="about-title align-left">
+                            <span class="wow fadeInDown" data-wow-delay=".1s">Rutas seguras</span>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Nuestra misión es brindarte tranquilidad</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".3s">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad min im veniam, quis nostrud exercitati ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat.</p>
+                            <p class="qote wow fadeInUp" data-wow-delay=".3s">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, do eius mod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="button wow fadeInUp" data-wow-delay=".5s">
+                                <!-- <a href="about-us.html" class="btn">Leer más</a> -->
+                                <!-- <a type="button" data-bs-toggle="modal" data-bs-target="#videoModal"
+                                    class="glightbox video btn"> Revisar Video<i class="lni lni-play"></i></a> -->
+                                    <a type="button"
+                                    class="glightbox video btn"> Revisar Video<i class="lni lni-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="about-right wow fadeInRight" data-wow-delay=".6s">
+                        <img src="assets/images/about/about-img2.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /End About Us Area -->
+    <!-- Modal video 
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">“Un día se fue a estudiar y nunca volvió”</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body centrar">
+                            <iframe width="760" height="400" src="https://www.youtube.com/embed/dzAn-rcqPNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <p>Video tomado de artículo creado por <a  href="https://web.comisiondelaverdad.co/actualidad/noticias/desaparecidos-arauca-asofavida-nina-de-11-anos-se-fue-a-estudiar-y-nunca-volvio" target="_blank">Comisión de la verdad</a>.</p>
+                        </div>
+                </div>
+            </div>
+        </div>-->
+    <!-- Start Achivement Area -->
+    <section class="our-achievement section overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="single-achievement wow fadeInUp" data-wow-delay=".2s">
+                        <h3 class="counter"><span id="secondo1" class="countup" cup-end="300">300</span>+</h3>
+                        <h4>Usuarios</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="single-achievement wow fadeInUp" data-wow-delay=".4s">
+                        <h3 class="counter"><span id="secondo2" class="countup" cup-end="2000">2000</span>+</h3>
+                        <h4>Rutas creadas</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="single-achievement wow fadeInUp" data-wow-delay=".6s">
+                        <h3 class="counter"><span id="secondo3" class="countup" cup-end="100">100</span>%</h3>
+                        <h4>Satisfacción</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="single-achievement wow fadeInUp" data-wow-delay=".6s">
+                        <h3 class="counter"><span id="secondo3" class="countup" cup-end="100">100</span>%</h3>
+                        <h4>Soporte</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Achivement Area -->
+
+    <!-- Start Newsletter Area -->
+    <section class="newsletter-area section">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6 offset-lg-3 col-md-12 col-12">
+                    <div class="newsletter-title">
+                        <span>Registrate Ahora</span>
+                        <h2>Seguridad para tus hijos</h2>
+                        <p>Subscribe to us to always stay in touch with us and get the latest news<br>
+                            about our company and all of our activities!</p>
+                    </div>
+                    <!-- Start Newsletter Form -->
+                    <div class="subscribe-text wow fadeInUp" data-wow-delay=".2s">
+                        <form action="" method="get" class="newsletter-inner">
+                            <input name="EMAIL" placeholder="Correo Electrónico" class="common-input"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Correo Electrónico'"
+                                required type="email">
+                            <div class="button">
+                                <button class="btn">Regístrate</button>
+                            </div>
+                        </form>
+                        <!-- <ul class="newsletter-social">
+                            <li><a href="javascript:void(0)"><i class="lni lni-facebook-original"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="lni lni-instagram"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="lni lni-google"></i></a></li>
+                        </ul> -->
+                    </div>
+                    <!-- End Newsletter Form -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /End Newsletter Area -->
+        <!-- Contact Area -->
+        <section id="contacto" class="section about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Contáctanos</h2>
+                    </div>
+                    <div class="wow fadeInUp col-lg-6 col-12 centrar" data-wow-delay=".3s">
+                        <img src="/assets/images/clients/client1.jpg" alt="" width="90%">
+                    </div>
+                    <div class="form wow fadeInUp col-lg-6 col-12" data-wow-delay=".6s"><br>
+                        <label for="" class="form-label"> Nombres y Apellidos </label>
+                        <input type="text" class="form-control" id="cta" placeholder="Nombres y Apellidos" required><br>
+                        <label for="" class="form-label"> Correo </label>
+                        <input type="email" class="form-control" id="cta" placeholder="Correo" required><br>
+                        <label for="" class="form-label"> Teléfono </label>
+                        <input type="number" class="form-control" id="cta" placeholder="Teléfono" required><br>
+                        <label class="form-label"> Mensaje </label>
+                        <textarea class="form-control" id="mensaje" placeholder="Deja tu comentario" required>Ingresa tu comentario
+                        </textarea><br>
+                        <button class="btn btn-form" type="button">Enviar</button>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!-- Contact Area -->
+
+    <!-- Start Call To Action Area 
+    <section class="call-action section overlay">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+                    <div class="call-content">
+                        <span>EduGrids Free Lite Version</span>
+                        <h2>Currently you are using free <br>Lite
+                            Version of EduGrids</h2>
+                        <p>Please, purchase full version of the template to get all pages,<br>
+                            features and commercial license</p>
+                        <div class="button">
+                            <a href="javascript:void(0)" class="btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     /End Call To Action Area -->
+
+    <!-- Start Clients Area 
+    <div class="client-logo-section">
+        <div class="container">
+            <div class="client-logo-wrapper">
+                <div class="client-logo-carousel d-flex align-items-center justify-content-between">
+                    <div class="client-logo">
+                        <img src="assets/images/clients/client1.svg" alt="">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/images/clients/client2.svg" alt="">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/images/clients/client3.svg" alt="">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/images/clients/client4.svg" alt="">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/images/clients/client5.svg" alt="">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/images/clients/client2.svg" alt="">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/images/clients/client3.svg" alt="">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/images/clients/client4.svg" alt="">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/images/clients/client5.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     End Clients Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <!-- Start Middle Top -->
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="f-about single-footer">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/images/logo/logopngconfiazul.png" alt="Logo"></a>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer sm-custom-border recent-blog">
+                            <h3>Ultimas Noticias</h3>
+                            <ul>
+                                <li>
+                                    <a href="blog-single-sidebar.html"><img src="assets/images/blog/footer-news1.jpg" alt="#">
+                                        Top 10 books you Must read in 2023
+                                    </a>
+                                    <span class="date"><i class="lni lni-calendar"></i>July 15, 2023</span>
+                                </li>
+                                <li>
+                                    <a href="blog-single-sidebar.html"><img src="assets/images/blog/footer-news2.jpg" alt="#">
+                                        How to Improve Your Communication Skill
+                                    </a>
+                                    <span class="date"><i class="lni lni-calendar"></i>July 1, 2023</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Single Widget 
+                        <div class="single-footer sm-custom-border f-link">
+                            <h3>Course List</h3>
+                            <ul>
+                                <li><a href="javascript:void(0)">Advance Javascript – ES6</a></li>
+                                <li><a href="javascript:void(0)">WordPress for Intermediate</a></li>
+                                <li><a href="javascript:void(0)">iOS App Development</a></li>
+                                <li><a href="javascript:void(0)">Wbsite Development</a></li>
+                                <li><a href="javascript:void(0)">Android App Development</a></li>
+                            </ul>
+                        </div>
+                         End Single Widget -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <p class="par">Nemo enim enim voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequ magni dolores eos qui ratione.</p>
+
+                            <div class="footer-social">
+                                <ul>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-google"></i></a></li>
+                                </ul>
+                            </div>
+                         <!--Single Widget 
+                         <div class="single-footer footer-newsletter">
+                            <h3>Newsletter</h3>
+                            <p>Subscribe to us to always stay in touch with us and get the latest news.</p>
+                            <form action="mail/mail.php" method="get" target="_blank" class="newsletter-form">
+                                <input name="EMAIL" placeholder="Your email address" class="common-input"
+                                    onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = 'Your email address'" required="" type="email">
+                                <div class="button">
+                                    <button class="btn">Subscribe Now!</button>
+                                </div>
+                            </form>
+                        </div>
+                         End Single Widget -->
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Middle -->
+        <!-- Start Footer Bottom 
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="left">
+                                <p>Designed and Developed by<a href="https://graygrids.com/" rel="nofollow"
+                                        target="_blank">GrayGrids</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         End Footer Middle -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        //========= Hero Slider 
+        tns({
+            container: '.hero-slider',
+            items: 1,
+            slideBy: 'page',
+            autoplay: false,
+            mouseDrag: true,
+            gutter: 0,
+            nav: true,
+            controls: false,
+            controlsText: ['<i class="lni lni-arrow-left"></i>', '<i class="lni lni-arrow-right"></i>'],
+        });
+        //====== Clients Logo Slider
+        // tns({
+        //     container: '.client-logo-carousel',
+        //     slideBy: 'page',
+        //     autoplay: true,
+        //     autoplayButtonOutput: false,
+        //     mouseDrag: true,
+        //     gutter: 15,
+        //     nav: false,
+        //     controls: false,
+        //     responsive: {
+        //         0: {
+        //             items: 1,
+        //         },
+        //         540: {
+        //             items: 3,
+        //         },
+        //         768: {
+        //             items: 4,
+        //         },
+        //         992: {
+        //             items: 4,
+        //         },
+        //         1170: {
+        //             items: 6,
+        //         }
+        //     }
+        // });
+        //========= glightbox
+        GLightbox({
+            'href': 'https://youtu.be/dzAn-rcqPNg',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'autoplayVideos': true,
+        });
+    </script>
+</body>
+
+</html>
